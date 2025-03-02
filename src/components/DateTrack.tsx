@@ -16,9 +16,6 @@ export function DateTrack({ formattedDate }: DateTrackProps): JSX.Element {
     useEffect(() => {
         setFullDate(`${currentDay}-${currentMonth}-${CurrentYear}`);
         setWeekDay(currentWeekDay);
-        console.log(
-            'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
-        );
     }, [formattedDate]);
 
     return (
